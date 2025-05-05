@@ -17,6 +17,24 @@ If you find this repository helpful for your work, please kindly cite our survey
 
 ### Module Enhancement
 
++ Efficient transformers: A survey, in *Comput. Surveys* 2022. [[paper]](https://dl.acm.org/doi/full/10.1145/3530811)
+
++ Skeleton-based action recognition with channel enhanced local graph window transformer, in *ICACIC* 2023. [[paper]](https://dl.acm.org/doi/abs/10.1145/3594315.3594643)
+
++ Synthesizer: Rethinking self-attention for transformer models, in *ICML* 2021. [[paper]](https://proceedings.mlr.press/v139/tay21a.html)
+
++ Positional Encoding-based Resident Identification in Multi-resident Smart Homes, in *ACM Transactions on Internet Technology* 2023. [[paper]](https://dl.acm.org/doi/abs/10.1145/3631353)
+
++ Airformer: Predicting nationwide air quality in china with transformers, in *AAAI* 2023. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/26676) [[official code]](https://github.com/yoshall/airformer)
+
++ Deep sparse rectifier neural networks, in *AISTATS* 2011. [[paper]](https://proceedings.mlr.press/v15/glorot11a)
+
++ DPReLU: Dynamic Parametric Rectified Linear Unit, in *SMA* 2021. [[paper]](https://dl.acm.org/doi/abs/10.1145/3426020.3426049)
+
++ An efficient spatial-temporal model based on gated linear units for trajectory prediction, in *Neurocomputing* 2022. [[paper]](https://doi.org/10.1016/j.neucom.2021.12.051)
+
++ On layer normalization in the transformer architecture, in *ICML* 2020. [[paper]](https://proceedings.mlr.press/v119/xiong20b)
+
 + Group normalization, in *ECCV* 2018. [[paper]](https://openaccess.thecvf.com/content_ECCV_2018/html/Yuxin_Wu_Group_Normalization_ECCV_2018_paper.html) [[official code]](https://github.com/pytorch/pytorch/blob/1c5c289b6218eb1026dcb5fd9738231401cfccea/torch/nn/modules/normalization.py#L177)
 
 + Maximum Norm Minimization: A Single-Policy Multi-Objective Reinforcement Learning to Expansion of the Pareto Front, in *CIKM* 2022. [[paper]](https://dl.acm.org/doi/abs/10.1145/3511808.3557389)
