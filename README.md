@@ -176,3 +176,78 @@ If you find this repository helpful for your work, please kindly cite our survey
 + ChatGPT informed graph neural network for stock movement prediction, in *arXiv* 2023. [[paper]](https://arxiv.org/abs/2306.03763) [[official code]](https://github.com/ZihanChen1995/ChatGPT-GNN-StockPredict)
 
 ## MODEL EVALUATION
+
+### Public Datasets
+
+#### Urban Transportation
+
+Table 1 details several popular datasets in the transportation domain.
+
+#### Table 1 SUMMARY OF THE PUBLIC URBAN TRANSPORTATION DATASETS.
+
+| Dataset  |           Location            | Spatial Domain |                         Time Period                          | Time Interval |
+| :------: | :---------------------------: | :------------: | :----------------------------------------------------------: | :-----------: |
+| METR-LA  | Transportation in Los Angeles |  207 sensors   |                      2012/3/1-2012/6/30                      |     5 min     |
+| PEMS-BAY |      California Highways      |  325 sensors   |                      2017/1/1-2017/5/31                      |     5 min     |
+|  PeMSD3  |      California Highways      |  358 sensors   |                     2018/9/1-2018/11/30                      |     5 min     |
+|  PeMSD4  |      California Highways      |  307 sensors   |                      2018/1/1-2018/2/28                      |     5 min     |
+|  PeMSD7  |      California Highways      |  883 sensors   |                      2017/5/1-2017/8/31                      |     5 min     |
+|  PeMSD8  |      California Highways      |  170 sensors   |                      2016/7/1-2016/8/31                      |     5 min     |
+| TaxiNYC  |      Taxi Trip New York       |  10x20 grids   |                      2016/7/1-2016/8/29                      |    1 hour     |
+|  TaxiBJ  |       Taxi GPS Beijing        |  32x32 grids   | 2013/7/1-2013/10/30<br>2014/3/1-2014/6/30<br> 2015/3/1-2015/6/30<br> 2015/11/1-2016/4/10 |    30 min     |
+| BikeNYC  |      Bike rent New York       |   16x8 grids   |                      2014/4/1-2014/9/30                      |    1 hour     |
+|  TaxiSZ  |       Taxi GPS Shenzhen       |   156 roads    |                      2015/1/1-2015/1/31                      |    15 min     |
+| LargeST  |     California Department     |   8600 nodes   |                     2017/1/1-2021/12/31                      |     5 min     |
+
+**Metro Traffic Los Angeles (METR-LA)**  is a common dataset used for traffic flow prediction, primarily used for research and evaluation of traffic prediction algorithm performance. The dataset contains traffic sensor data from the Los Angeles area and can be utilized to predict traffic flow. The format of the METR-LA dataset is typically time series data, which includes traffic flow information from traffic sensors at different time points. Common data formats include timestamps, flow (indicating the traffic flow rate per unit time, usually represented as the count of vehicles detected by a sensor), and other features (including speed, density, etc.) to offer a detailed description of traffic conditions. The dataset contains data from 207 sensors from March to June 2012, with recordings made at 5-minute intervals, resulting in a total of 207 sensors and 34,272 time points.
+
+**Performance Measurement System (PeMS)** offers a consolidated database of traffic data gathered by the California Department of Transportation. It includes data from highways in California and datasets from other transportation companies and partner organizations in the state. These datasets facilitate a unified and exhaustive evaluation of highway functionality, empowering users in making a well-informed operational choice by comprehending the current status of the highway system. They make it possible to identify possible solutions by analyzing traffic congestion points, which improves decision-making in general. The most widely used datasets are PEMS-BAY, PeMSD3, PeMSD4, PeMSD7, and PeMSD8. PEMS-BAY contains data from 325 detectors collected over a 6-month period (from January 1, 2017, to May 31, 2017), with a data interval of 5 minutes. PeMSD3 includes data collected every 5 minutes by 358 detectors from September to November 2018. PeMSD4 contains traffic flow data collected every 5 minutes by 307 detectors over a continuous 59-day period (from January 1, 2018, to February 28, 2018). PeMSD7 includes traffic data collected every 5 minutes by 883 detectors over a continuous 3-month period (from May 1, 2017, to August 31, 2017). PeMSD8 features data collected every 5 minutes by 170 detectors over a 62-day period (from July 1, 2016, to August 31, 2016).
+
+**TaxiBJ** provides GPS and meteorological data for taxis in Beijing from four time periods between 2013 and 2016. **TaxiNYC**  offers driving records for taxis in New York City from 2011 to 2014, including pickup and drop-off times and locations. **BikeNYC**  comes from the New York City bike system covering the period from April 1 to September 30, 2014. It includes data on trip duration, numbers of the origin and destination stations, as well as the start and end times of each trip. **TaxiSZ**  provides GPS data for taxis collected on 156 streets in Shenzhen during the entire month of January 2015. Additionally, **LargeST** is the first dataset applied to large-scale traffic prediction, containing 8,600 sensors and covering 5 years.
+
+#### Climate Monitoring
+
+Several common datasets in climate monitoring are detailed in Table 2.
+
+#### Table 2 SUMMARY OF THE PUBLIC CLIMATE MONITORING DATASETS.
+
+|          Dataset          |                         Description                          |                  Statistics                  |                      Timeframe                       |
+| :-----------------------: | :----------------------------------------------------------: | :------------------------------------------: | :--------------------------------------------------: |
+|   ERA5 reanalysis data    | Global Atmospheric Environment Analysis dataset published by ECMWF | 721x1440 grid points with 37 vertical levels |                 from 1979 to present                 |
+|           SEVIR           |          Extreme weather datasets released by NOAA           |                    10000                     |                       4 hours                        |
+| Shifts-Weather Prediction | Weather forecasting, machine translation and autonomous driving motion prediction data |        10 million 129-column entries         |                  2018/9/1-2019/9/1                   |
+|           CPCB            |             India Air Quality Monitoring Dataset             |       703 air quality monitoring sites       |                        15 min                        |
+|          AirNet           |                  China Meteorological Data                   |                  1498 sites                  |                  2015/4/1-2017/9/1                   |
+|           CMPI6           | For the study of global climate change and the prediction of future climate trends |      global grided in 1 vertical level       | 1850-2014 for historical and 2015-2100 for ssp expt. |
+
+**ERA5** is the global atmospheric reanalysis dataset released by the European Center for Medium-Range Weather Forecasts (ECMWF). This dataset provides high-resolution meteorological data and is frequently utilized in meteorology and climate research. ERA5 can provide data ranging from 1979 up to three months before the current time, including parameters such as temperature, precipitation, pressure, and wind speed.
+
+**SEVIR**, released by the National Oceanic and Atmospheric Administration (NOAA) in the United States, is a dataset specifically designed for the research and analysis of extreme weather events depicted in satellite imagery, such as hurricanes, tornadoes, and thunderstorms. The SEVIR dataset encompasses satellite imagery, annotations, and meteorological observation data related to these extreme weather events, intending to assist researchers in studying the formation, development, and prediction of such events. By analyzing the SEVIR dataset, we can enhance our understanding of extreme weather phenomena, thereby providing more accurate information for weather forecasting and disaster management.
+
+**The Shifts dataset**, procured from industrial and service sectors, encompasses three tasks, each associated with a unique data pattern. These data patterns include meteorological prediction, machine-based translation, and the anticipation of movement in autonomous driving. Real distributional changes impact all of these jobs and data patterns.
+
+**CPCB**, which stands for Central Pollution Control Board, collects data from 703 air quality monitoring stations located in India, with data collection intervals of 15 minutes. **AirNet** provides pollutant data for China, covering the period from April 2015 to September 2017. It includes SO2, PM2.5, NO2, and CO measurements from 1,498 monitoring stations. **CMPI6**  is a significant dataset created to accelerate global climate modeling and prediction research and to foster international collaboration in the study of global climate change. Developed and maintained by model developers and climate scientists worldwide, the CMIP6 dataset contains model output data from multiple climate models, used for analyzing global climate change and forecasting future climate trends.
+
+#### Motion Prediction
+
+Table 3 provides a detailed introduction to several common datasets in motion prediction. 
+
+#### Table 3 SUMMARY OF THE PUBLIC MOTION PREDICTION DATASETS.
+
+|   Applications   |   Dataset   |      Data Type      |      Specific Applications       |
+| :--------------: | :---------: | :-----------------: | :------------------------------: |
+|  **Trajectory**  |     ETH     |       Videos        | Pedestrian trajectory prediction |
+|                  |     UCY     |       Videos        | Pedestrian trajectory prediction |
+|                  | INTERACTION |       Videos        |   Mixed vehicle and pedestrian   |
+|                  |    TRAF     |       Videos        |      trajectory prediction       |
+|                  |    HighD    |       Images        |  Vehicle trajectory prediction   |
+|                  |    Waymo    |       Images        |  Vehicle trajectory prediction   |
+| **Human Motion** |    AMASS    | Motion-capture data |     Human Motion Prediction      |
+|                  |  Human3.6M  |       Videos        |     Human Motion Prediction      |
+|                  |    3DPW     |       Images        |     Human Motion Prediction      |
+|                  |  PoseTrack  |       Videos        |     Human Motion Prediction      |
+|                  | Penn Action |       Videos        |     Human Motion Prediction      |
+
+In trajectory prediction, **the ETH dataset** is mainly divided into two parts. One part is used for computer vision tasks with the dataset content consisting of pedestrian movement videos captured on a plane. The other part is mainly used for social behavior modeling, providing an overview perspective of group pedestrian movement trajectories. **The UCY dataset** consists of real pedestrian trajectories captured from an aerial perspective and is composed of three sequences (Zara01, Zara02, and UCY). **INTERACTION**  describes the trajectories of vehicles and pedestrians at road intersections or junctions, containing interaction patterns between vehicles and pedestrians. The dataset includes four scenarios (roundabout, no traffic lights, traffic lights, and lane changing/merging) and data from 12 locations. **HighD** is a large natural vehicle trajectory dataset from German highways, collected by drones at a total of 6 locations, including 11.5 hours of measurements and 110,000 vehicles, as well as 5,600 complete lane change records. **TRAF**  focuses on high-density traffic conditions, with the dataset consisting of 720p RGB videos, each frame containing approximately 13 motor vehicles, 5 pedestrians, and 2 bicycles. **The Waymo dataset** encompasses around 12 million annotation boxes for LiDAR and roughly the same number for image annotations, producing close to 113,000 object trajectories from LiDAR and approximately 250,000 trajectories from images. This dataset is organized into 1,000 training sets and 150 testing sets.
+
+In human motion prediction, **AMASS** stands as a large database of human motion, integrating various optical marker motion capture datasets into a unified framework and parameterization. It encompasses over 40 hours of motion data, spanning more than 300 subjects and 11,000 different motions. **Human3.6M** is a popular dataset for estimating human poses, employed in research tasks including recognizing human actions, estimating poses, and reconstructing 3D models. The dataset includes video sequences from 11 cameras, totaling 36,000 frames, along with 2D and 3D annotations of human joint positions in each video. **The 3DPW dataset** represents a large dataset, notable for its collection of movements in outdoor environments. The dataset is normally used for human pose estimation and reconstruction. It includes approximately 14,000 frames of data from about 50 different videos, encompassing a variety of human actions and poses. These data are highly diverse and realistic, reflecting human motion in the real world. **The PoseTrack dataset** features an extensive collection of video sequences that depict a wide array of everyday activities, including walking, running, and talking, among others. It includes 1,356 video sequences, 46,000 annotated video frames, and 276,000 human pose annotations. **The Penn Action dataset** contains approximately 2,000 video sequences, each containing an average of 15 image frames. The video sequences have different lengths and types of actions, offering a certain level of diversity.
