@@ -47,13 +47,23 @@ If you find this repository helpful for your work, please kindly cite our survey
 
 + DeepNet: Scaling transformers to 1,000 layers, in *IEEE Transactions on Pattern Analysis and Machine Intelligence* 2024. [[paper]](https://dl.acm.org/doi/abs/10.1109/TPAMI.2024.3386927) [[official code]](https://github.com/microsoft/unilm)
 
-+ Crossgnn: Confronting noisy multivariate time series via cross interaction refinement, in *NeurIPS* 2023. [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/9278abf072b58caf21d48dd670b4c721-Abstract-Conference.html) [[official code]](https://github.com/hqh0728/crossgnn)
++ Representing long-range context for graph neural networks with global attention, in *NeurIPS* 2021. [[paper]](https://proceedings.neurips.cc/paper/2021/hash/6e67691b60ed3e4a55935261314dd534-Abstract.html) [[official code]](https://github.com/ucbrise/graphtrans)
+
++ Non-stationary GNNCrossformer: Transformer with graph information for non-stationary multivariate Spatio-Temporal wind power data forecasting, in Applied Energy 2025. [[paper]](https://www.sciencedirect.com/science/article/pii/S0306261924018750)
 
 + Graph transformer networks, in *NeurIPS* 2019. [[paper]](https://dl.acm.org/doi/10.5555/3454287.3455360) [[official code]](https://github.com/seongjunyun/Graph_Transformer_Networks)
 
 + Graphformers: Gnn-nested transformers for representation learning on textual graph, in *NeurIPS* 2021. [[paper]](https://proceedings.neurips.cc/paper_files/paper/2021/hash/f18a6d1cde4b205199de8729a6637b42-Abstract.html) [[official code]](https://github.com/microsoft/graphformers)
 
 ### Foundation Models
+
++ TimeGPT-1, in *arXiv* 2024. [[paper]](https://arxiv.org/abs/2310.03589) [[official code]](https://github.com/Nixtla/nixtla)
+
++ One Fits All: Power General Time Series Analysis by Pretrained LM, in NeurIPS 2023. [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/86c17de05579cde52025f9984e6e2ebb-Abstract-Conference.html) [[official code]](https://github.com/damo-di-ml/one_fits_all)
+
++ A decoder-only foundation model for time-series forecasting, in ICML 2024. [[paper]](https://openreview.net/forum?id=jn2iTJas6h) [[official code]](https://github.com/google-research/timesfm)
+
++ Temporal Data Meets LLM -- Explainable Financial Time Series Forecasting, in in *arXiv* 2023. [[paper]](https://arxiv.org/abs/2306.11025)
 
 + Time-llm: Time series forecasting by reprogramming large language models, in *arXiv* 2020.[[paper]](https://arxiv.org/abs/2310.01728) [[official code]](https://github.com/kimmeen/time-llm)
 
