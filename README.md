@@ -67,6 +67,18 @@ If you find this repository helpful for your work, please kindly cite our survey
 
 + Time-llm: Time series forecasting by reprogramming large language models, in *arXiv* 2020.[[paper]](https://arxiv.org/abs/2310.01728) [[official code]](https://github.com/kimmeen/time-llm)
 
++ ETP: Learning Transferable ECG Representations via ECG-Text Pre-Training, in *ICASSP* 2024. [[paper]](https://ieeexplore.ieee.org/document/10446742)
+
++ TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series, in *arXiv* 2024. [[paper]](https://arxiv.org/abs/2308.08241) [[official code]](https://github.com/scxsunchenxi/test)
+
++ Can Brain Signals Reveal Inner Alignment with Human Languages?, in *Findings of EMNLP* 2023. [[paper]](https://aclanthology.org/2023.findings-emnlp.120) [[official code]](https://github.com/Jielin-Qiu/EEG_Language_Alignment)
+
++ Insight Miner: A Time Series Analysis Dataset for Cross-Domain Alignment with Natural Language, in *NeurIPS AI4Science Workshop* 2023. [[paper]](https://openreview.net/forum?id=E1khscdUdH&referrer=%5Bthe%20profile%20of%20Yunkai%20Zhang%5D(%2Fprofile%3Fid%3D~Yunkai_Zhang2))
+
++ An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, in *ICLR* 2021. [[paper]](https://arxiv.org/abs/2010.11929) [[official code]](https://github.com/google-research/vision_transformer)
+
++ PandaGPT: One Model To Instruction-Follow Them All, in *Workshop on Taming Large Language Models (TLLM)* 2023. [[paper]](https://arxiv.org/abs/2305.16355) [[official code]](https://github.com/yxuansu/PandaGPT)
+
 ## APPLICATION OF SPATIO-TEMPORAL TRANSFORMER
 
 ### Urban Transportation
